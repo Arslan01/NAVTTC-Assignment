@@ -1,0 +1,268 @@
+.header-top{
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+.boost{ 
+    display: flex;
+    background-color: #241c15;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+.boost a{
+    text-decoration: none;
+    color: white;
+    border-bottom: .0625rem dashed;
+    
+}
+
+.boost a:hover{
+    border-bottom: none;
+}
+
+.navbar{
+  display: flex;
+}
+
+.dropdown{
+  outline: none;
+  border: none;
+
+}
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  /* li {
+    float: left;
+    margin-left: 20px;
+  }
+     */
+  /* .list-items{
+    
+    float: left;
+    margin-left: 20px;
+
+  } */
+  
+
+
+  .list-items{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;    
+    justify-content: center;
+}
+
+.list-items a{
+    
+    text-decoration: none;
+    text-decoration-style: none;
+    color: #241c15;
+    list-style-type: none;
+
+}
+
+  
+  li a:hover {
+    /* background-color: #736e6e; */
+  }
+
+  .list-right{
+    float: right;
+  }
+
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #ffe01ba6;
+    border-radius: 25px;
+    /* box-shadow: 0 2px #2b2a2a; */
+    text-decoration: none;
+    color: black;
+    text-decoration-style: none;
+    border: 1px solid #555555;
+
+  }
+
+  .button a{
+    text-decoration: none;
+    color: #241c15;
+  }
+  
+  .button:hover {
+    background-color: #ffe01ba6;   
+    border: none; 
+}
+  
+  .button:active {
+    /* box-shadow: 0 5px #666; */
+    /* transform: translateY(4px); */
+    
+  }
+  
+  .btnSecondary{
+    
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .btnSecondary:hover{
+    border: none;
+  }
+  .btnSecondary a{
+    
+    text-decoration: none;
+    color: #241c15;
+
+  }
+/* 
+  .btnPrimary{
+    cursor: pointer;
+    border: none;
+    border-radius: 2em;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+  } */
+
+.banner-section{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #ebe7e7; */
+  box-sizing: border-box;
+}
+.banner-left{
+  padding: 100px;
+}
+.datasection{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #241c15;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;
+}
+.numbers-data{
+  text-align: center;
+}
+.center-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.padding{
+  padding: 40px;
+}
+
+.margin-top{
+  margin-top: 30px;
+}
+
+.quotesection{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #fbeeca;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.footersection{
+
+  display: flex;
+  flex-direction: column;
+  background-color: #e7b75f;
+  color: black;
+  font-size: 10px;
+  text-align: left;
+  justify-content: left;
+  padding: 40px;
+}
+
+
+.related_links{
+
+  margin-top: 40px;
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.related_links a {
+
+  color: #241c15;
+
+}
+
+.columnBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.footerItem a{
+
+  list-style: none;
+  color: black;
+  
+}
+ 
+.footerItem {
+  margin-top: 6px;
+  list-style-type: none;
+}
+
+.footerItem:hover{
+  background-color: #ffe01ba6;
+}
+@media (max-width:720px){
+
+  .banner-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .datasection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .quotesection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+}
